@@ -1,0 +1,198 @@
+@media (max-width:475px) {
+
+    .header-item .item2 {
+        display: none;
+    }
+
+    .hero-item {
+        width: 100%;
+    }
+
+
+    .hero-item:nth-child(2) {
+        display: none;
+    }
+    .hero-item:nth-child(1) {
+        width: 100%;
+    }
+
+    
+.hero-item h1{
+    font-size: 20px;
+    padding: 5px;
+ line-height: 25px;
+ font-weight: 400;
+ margin-left: 0;
+ }
+
+.hero-item  p{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 350;
+    padding: 0px;
+    margin-left: 0;
+}
+
+
+.blueback {
+    background-color: #4285F4;
+    height: 3000px;
+    padding: 10px;
+    margin-top: -100px ;
+}
+
+.scrolldown i{
+display: none;
+}
+
+
+.analytics {
+    font-size: 20px;
+    margin-left: 0;
+}
+
+.subanalytics {
+
+   padding: 0;
+   margin: 10px 0;
+     
+}
+
+.whitebox {
+    /* border: 1px solid black; */
+   
+    width: 100%;
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 10px;
+ 
+}
+
+
+
+.whitebox img{
+    margin-top: 5px;
+}
+
+.whitebox a{
+    margin-left: 5px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+.whitebox p{
+    margin-left: 0;
+    margin-top: 30px;
+    margin-right: 0;
+    padding-bottom: 100px;
+
+}
+
+.container{
+    margin: 0px 0px;
+}
+
+
+.meet{
+    font-size: 20px;
+    line-height: 12px;
+    font-weight: 400;
+    
+}
+
+.flex-item {
+    background-color: #F2F2F2;
+    height: 300px;
+    width: 100%;
+
+}
+
+.flex-item h3 {
+    
+    padding: 20px 35px;
+
+}
+
+.flex-item p {
+    font-size: 15px;
+    line-height: 18px ;
+    margin-left: -45px;
+    width: 98%;
+
+}
+
+.flex-item img {
+
+    display: none;
+}
+
+ .fourflex{
+    
+   flex-direction: column;
+}
+
+.subfour{
+    width: 100%;
+    height: 150px;
+    background-color: #F2F2F2;
+    
+    margin-top: 25px;
+    
+}
+
+.subfour img{
+    width: 50px;
+    margin: auto;
+    margin-top: 15px;
+    display: block;
+    text-align: center;
+}
+
+.subfour p{
+    
+    line-height: 21px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+.add-res span{
+    
+    display: block;
+    margin-left: 2px;
+    font-size: 17px;
+}
+
+.in-add-res{
+    flex-direction: column;
+    margin-left: 130px;
+    
+    gap: 1px;
+    /* text-align: center; */
+}
+
+.small-add-res{
+    height: 100px;
+    width: 15px;
+    /* justify-content: center; */
+    margin-top: -3px;
+    
+    
+    
+    }
+
+    .small-add-res img{
+        width: 50px;
+        transform: translate(-88px , 40px);
+    
+    }
+
+
+
+.butoon{
+    display: none;
+}
+
+
+}
